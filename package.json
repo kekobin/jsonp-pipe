@@ -1,0 +1,19 @@
+{
+  "name": "jsonp-pipe",
+  "version": "1.0.0",
+  "description": "a implement of jsonp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kekobin/jsonp-pipe.git"
+  },
+  "author": "kekobin@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kekobin/jsonp-pipe/issues"
+  },
+  "homepage": "https://github.com/kekobin/jsonp-pipe#readme"
+}
