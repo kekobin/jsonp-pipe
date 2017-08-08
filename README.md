@@ -14,13 +14,13 @@ npm install jsonp-pipe
 or
 
 ```
-import jsonp from 'jsonp-pipe'
+import jsonpPipe from 'jsonp-pipe'
 ```
 
 # example
 
 ```
-jsonp({
+jsonpPipe ({
     url:url,
     callback:"callback",//可选
     data:{}, //可选
