@@ -1,6 +1,16 @@
 # jsonp-pipe
 an implement of jsonp.
 
+# usage
+
+```
+<script type="text/javascript" src="jsonp-pipe/index.js"></script>
+
+or
+
+import jsonp from 'jsonp-pipe'
+```
+
 # example
 
 ```
