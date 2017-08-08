@@ -20,7 +20,7 @@ import jsonpPipe from 'jsonp-pipe'
 # example
 
 ```
-jsonpPipe ({
+jsonpPipe({
     url:url,
     callback:"callback",//可选
     data:{}, //可选
