@@ -13,7 +13,7 @@
         //创建 script 标签并加入到页面中
         var url = options.url;
         //缓存时回调名应该唯一
-        var urlCut = url.slice(url.length-20,url.length).replace(/[=|&\/\\\?]/g,'');//去掉截取后的url里面的特殊字符
+        var urlCut = url.slice(url.length-20,url.length).replace(/=|&/g,'');//去掉截取后的url里面的特殊字符
         var callbackName = options.cache ? ('jsonp_' + urlCut) : ('jsonp_' + Math.random()).replace(".", "");
         var oBody = document.getElementsByTagName('body')[0];
         var params = "";
